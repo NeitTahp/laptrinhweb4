@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh Sách Người Dùng</title>
+    <link rel="stylesheet" href="./Public/css/list.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="login.html">Đăng nhập</a></li>
+            <li><a href="register.html">Đăng ký</a></li>
+            <li><a href="users.html">Danh sách người dùng</a></li>
+        </ul>
+    </nav>
+    <div class="user-container">
+        <h2>Danh Sách Người Dùng</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Thứ tự</th>
+                    <th>Username</th>
+                    <th>Email</th>
+                    <th>Thao tác</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>user1</td>
+                    <td>user1@example.com</td>
+                    <td>
+                        <a href="#">Edit</a> | 
+                        <a href="#">View</a> | 
+                        <a href="#">Delete</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>user2</td>
+                    <td>user2@example.com</td>
+                    <td>
+                        <a href="update.html">Edit</a> | 
+                        <a href="view.html">View</a> | 
+                        <a href="#">Delete</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="pagination">
+            <a href="#">«</a>
+            <a href="#" class="active">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">»</a>
+        </div>
+    </div>
+</body>
+</html>
