@@ -1,0 +1,87 @@
+body {  
+    font-family: Arial, sans-serif;  
+    background-color: #f8f9fa;
+    color: #333; 
+    margin: 0;  
+    padding: 0;  
+}  
+  
+.container {  
+    margin: auto;  
+}  
+
+.card {  
+    border-radius: 8px;  
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);   
+    overflow: hidden;  
+}  
+
+.card-header {  
+    background-color: blue;  
+    color: #fff;  
+    padding: 20px 0;  
+    text-align: center;  
+}  
+
+.card-body {  
+    padding: 30px;  
+}  
+
+.form-group {  
+    margin-bottom: 25px;   
+}  
+
+label {  
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px; 
+}  
+
+
+
+input:focus {  
+    border-color: #343a40;   
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);   
+}  
+
+.text-danger {  
+    color: #e3342f;  
+}  
+
+.d-grid {  
+    margin-top: 30px;   
+}  
+
+.btn {  
+    background-color: blue;   
+    color: #fff; 
+    border: none;  
+    padding: 15px;  
+    border-radius: 4px;   
+    text-transform: uppercase;   
+    cursor: pointer; 
+    font-size: 16px;   
+    transition: background-color 0.3s;  
+}  
+
+.btn:hover {  
+    background-color: orange;  
+}  
+
+.already-account {  
+    display: block; 
+    text-align: center;  
+    margin-top: 15px;  
+    color: #343a40;  
+    text-decoration: none;  
+}  
+
+.already-account:hover {  
+    text-decoration: underline;   
+}  
+
+footer {  
+    text-align: center;  
+    margin-top: 20px;  
+    color: #616161;   
+}
