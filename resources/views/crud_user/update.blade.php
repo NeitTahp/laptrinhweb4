@@ -32,22 +32,6 @@
                                 </div>
 
                                 <div class="form-group mb-3">
-                                    <label>phone</label>
-                                    <input type="phone" class="form-control" name="phone" value="{{ $user->phone }}" required>
-                                    @error('phone')
-                                        <span class="text-danger">{{ $message }}</span>
-                                    @enderror
-                                </div>
-
-                                <div class="form-group mb-3">
-                                    <label>address</label>
-                                    <input type="address" class="form-control" name="address" value="{{ $user->address }}" required>
-                                    @error('address')
-                                        <span class="text-danger">{{ $message }}</span>
-                                    @enderror
-                                </div>
-
-                                <div class="form-group mb-3">
                                     <label>Mật khẩu</label>
                                     <input type="password" class="form-control" name="password" required>
                                     @error('password')
