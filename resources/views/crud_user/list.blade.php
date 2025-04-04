@@ -13,6 +13,8 @@
                     <th>id</th>
                     <th>Username</th>
                     <th>Email</th>
+                    <th>Like</th>
+                    <th>Github</th>
                     <th>Thao tác</th>
                 </tr>
             </thead>
@@ -21,6 +23,8 @@
                             <tr>
                                 <th>{{ $user->id }}</th>
                                 <th>{{ $user->name }}</th>
+                                <th>{{ $user->like }}</th>
+                                <th>{{ $user->github }}</th>
                                 <th>{{ $user->email }}</th>
                                 <th>
                                     <a href="{{ route('user.readUser', ['id' => $user->id]) }}">View</a> |

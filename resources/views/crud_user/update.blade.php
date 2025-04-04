@@ -30,7 +30,20 @@
                                         <span class="text-danger">{{ $message }}</span>
                                     @enderror
                                 </div>
-
+                                <div class="form-group mb-3">
+                                    <label>like</label>
+                                    <input type="like" class="form-control" name="like" value="{{ $user->like }}" required>
+                                    @error('like')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+                                <div class="form-group mb-3">
+                                    <label>Github</label>
+                                    <input type="github" class="form-control" name="github" value="{{ $user->github }}" required>
+                                    @error('github')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
                                 <div class="form-group mb-3">
                                     <label>Mật khẩu</label>
                                     <input type="password" class="form-control" name="password" required>
